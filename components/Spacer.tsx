@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Spacer = () => {
   return (
-    <div className='my-2'></div>
+    <div>
+        <hr className='bg-slate-800 h-2' />
+    </div>
   )
 }

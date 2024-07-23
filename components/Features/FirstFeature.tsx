@@ -3,14 +3,14 @@ import Image from "next/image";
 
 export const FirstFeature = () => {
   return (
-    <section className="min-h-[90vh] bg-black text-white">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-8">
+    <section className="min-h-[70vh] bg-black text-white">
+      <div className="grid grid-cols-1 md:grid-cols-2 p-8">
         <div className="flex items-center justify-center">
           <div>
-            <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
+            <h1 className="font-bold text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-center">
               Enjoy on your TV
             </h1>
-            <p className="mt-4 text-lg sm:text-xl md:text-2xl lg:text-3xl">
+            <p className="mt-4 text-lg sm:text-xl md:text-2xl lg:text-3xl text-center">
               Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
               Blu-ray players, and more.
             </p>
